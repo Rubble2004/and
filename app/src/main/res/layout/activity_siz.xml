@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".siz">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="СИЗ"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Настоящая инструкция по охране труда предусматривает основные требования по безопасной работе для техника по ремонту спортинвентаря. К самостоятельной работе в качестве техника по ремонту спортинвентаря допускаются лица не моложе 18 лет, прошедшие медицинский осмотр и не имеющие противопоказаний по состоянию здоровья, прошедшие вводный и первичный на рабочем месте инструктажи по охране труда, теоретическую и практическую подготовку, обучение безопасным методам работы и стажировку на рабочем месте, проверку знаний по охране труда, а также прошедшие обучение правилам пожарной безопасности и проверку знаний правил пожарной безопасности в объеме должностных обязанностей. Техник по ремонту спортинвентаря относится к электротехнологическому персоналу и должен иметь II квалификационную группу допуска по электробезопасности. Техник по ремонту спортинвентаря не имеет права заниматься ремонтом розеток, выключателей и т.п. Техник по ремонту спортинвентаря обязан: знать и соблюдать требования настоящей инструкции, правила и нормы охраны труда и производственной санитарии, правила внутреннего трудового распорядка; соблюдать правила поведения на территории и в помещениях предприятия; заботиться о личной безопасности и личном здоровье; выполнять требования пожаро- и взрывобезопасности, знать сигналы оповещения о пожаре, порядок действий при нем, места расположения средств пожаротушения и уметь пользоваться ими; знать месторасположение аптечки и уметь оказывать первую помощь пострадавшему; знать порядок действий в случае возникновения чрезвычайных происшествий; соблюдать принятую технологию, применять безопасные способы выполнения работ." />
+
+            <VideoView
+                android:id="@+id/siz"
+                android:layout_width="482dp"
+                android:layout_height="502dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Проверка"
+                android:textSize="20dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:rotationX="-360"
+                android:text="80% распознавания" />
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cложности возникли со съёмкой видео и roboflow"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
