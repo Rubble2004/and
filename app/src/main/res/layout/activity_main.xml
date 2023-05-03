@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#3fb0ac">
 
     <TextView
         android:id="@+id/Olman"
@@ -30,7 +31,8 @@
         android:text="info"
         app:layout_constraintBottom_toTopOf="@+id/imageButton2"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/info" />
+        app:srcCompat="@drawable/info"
+        android:backgroundTint="#fae596"/>
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -46,7 +48,8 @@
         android:text="siz"
         app:layout_constraintBottom_toTopOf="@+id/imageButton3"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/siz" />
+        app:srcCompat="@drawable/siz"
+        android:backgroundTint="#fae596"/>
 
     <ImageButton
         android:id="@+id/imageButton3"
@@ -62,7 +65,8 @@
         android:text="zone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/dead" />
+        app:srcCompat="@drawable/dead"
+        android:backgroundTint="#fae596"/>
 
     <ImageButton
         android:id="@+id/imageButton4"
@@ -78,7 +82,8 @@
         app:layout_constraintBottom_toTopOf="@+id/imageButton5"
         app:layout_constraintEnd_toStartOf="@+id/imageButton7"
         app:layout_constraintStart_toEndOf="@+id/imageButton"
-        app:srcCompat="@drawable/search" />
+        app:srcCompat="@drawable/search"
+        android:backgroundTint="#fae596"/>
 
     <ImageButton
         android:id="@+id/imageButton5"
@@ -110,7 +115,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/neironka"
         app:layout_constraintStart_toEndOf="@+id/imageButton3"
-        app:srcCompat="@drawable/filter" />
+        app:srcCompat="@drawable/filter"
+        android:backgroundTint="#fae596"/>
 
     <ImageButton
         android:id="@+id/imageButton7"
@@ -126,7 +132,8 @@
         android:text="kon"
         app:layout_constraintBottom_toTopOf="@+id/imageButton8"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/kon" />
+        app:srcCompat="@drawable/kon"
+        android:backgroundTint="#fae596"/>
 
     <ImageButton
         android:id="@+id/imageButton8"
@@ -142,7 +149,8 @@
         android:text="qr"
         app:layout_constraintBottom_toTopOf="@+id/neironka"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/qr" />
+        app:srcCompat="@drawable/qr"
+        android:backgroundTint="#fae596"/>
 
     <ImageButton
         android:id="@+id/neironka"
@@ -157,7 +165,8 @@
         android:text="neironka"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/neironka" />
+        app:srcCompat="@drawable/neironka"
+        android:backgroundTint="#fae596"/>
 
     <TextView
         android:id="@+id/textView"
