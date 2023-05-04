@@ -99,7 +99,9 @@
         app:layout_constraintBottom_toTopOf="@+id/imageButton6"
         app:layout_constraintEnd_toStartOf="@+id/imageButton8"
         app:layout_constraintStart_toEndOf="@+id/imageButton2"
-        app:srcCompat="@drawable/size" />
+        app:srcCompat="@drawable/size"
+        android:backgroundTint="#fae596"/>
+
 
     <ImageButton
         android:id="@+id/imageButton6"

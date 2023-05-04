@@ -32,4 +32,15 @@
         app:srcCompat="@drawable/qr"
         />
 
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="540dp"
+        android:text="Штрих-коды на производстве нужны для предоставления информации о производстве, продукте и его составляющих. QR коды ведут на страницы производства, сборке, комплектации."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

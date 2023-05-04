@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".filtr">
+    tools:context=".filtr"
+    android:background="#3fb0ac">
 
     <VideoView
         android:id="@+id/filter"
@@ -12,7 +13,44 @@
         android:layout_height="227dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.436" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="164dp"
+        android:text="На производстве используются модели 3 цветов: красный, синий, зеленый."
+        app:layout_constraintBottom_toTopOf="@+id/filter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="На производстве используются модели 3 цветов: красный, синий, зеленый.
+Недостатком поиска цвета является выставление диапазона в коде. Ошибка при распознавании красного цвета, была связана с неправильно установленным диапазоном и освещением над конвейером.
+Самым продуктивным методом является поиск по шаблону. При обучении датасета с выделением объекта, который требуется найти. Самое сложное в этот методе - ошибки при работе с кодом"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/filter" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="148dp"
+        android:text="Самым продуктивным методом является поиск по шаблону. При обучении датасета с выделением объекта, который требуется найти. Самое сложное в этот методе - ошибки при работе с кодом"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/filter" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
